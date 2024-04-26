@@ -1,0 +1,400 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+    box-sizing: border-box;
+    
+}
+
+
+/* 
+  .fa-caret-down{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    position: relative;
+    top: 10px;
+	border-top: 50px solid #323232;
+    vertical-align: middle;
+} */
+
+
+#CandT {
+    display: flex;
+    background-color: rgb(42, 46, 52);
+}
+
+
+
+#cat {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(49, 54, 79);
+    padding: 5px;
+    margin-top: 600px;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: contain;
+    animation-range-end: contain;
+
+}
+
+#categories {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}   
+
+
+.box{
+    display: flex;
+}
+@keyframes fade-in{
+    from{scale: .8; opacity:0;}
+    to{scale:1; opacity:1;}
+}
+#img1 {
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 2px;
+    position: relative;
+    transition: transform .15s;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    transition: all 0.5s; 
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+#img4{
+    padding: 10px;
+    margin-left: 30px;
+    position: relative;
+    transition: transform .15s;
+    position: relative;
+    cursor: pointer;
+    
+    /* margin: 4px; */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    transition: all 0.5s;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+
+}
+#img4:hover{
+    transform: scale(1.1);
+    box-shadow:0px;
+}
+
+#img2 {
+    padding: 10px;
+    
+    position: relative;
+    transition: transform .15s;
+    margin-left: 19px;
+    margin-right: 2px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    transition: all 0.5s;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+
+}
+
+
+#img3 {
+    padding: 10px;
+    
+    position: relative;
+    transition: transform .15s;
+    margin-left: 19px;
+    margin-right: 2px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    transition: all 0.5s;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+#img5{
+    padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    transition: transform .15s;
+    left: 3px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    transition: all 0.5s;
+    
+    margin: 4px;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+#img5:hover{
+    transform: scale(1.1);
+    box-shadow:0px;
+}
+
+#img6{
+    padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    transition: transform .15s;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    transition: all 0.5s;
+    
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+#img7{
+    padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    transition: transform .15s;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    transition: all 0.5s;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+#img7:hover{
+    transform: scale(1.1);
+    box-shadow:0px;
+}
+#img:hover{
+    transform: scale(1.1);
+    box-shadow:0px;
+}
+
+#img6:hover{
+    overflow:visible;
+    transform: scale(1.1);
+    box-shadow:0px;
+
+}
+
+#img1:hover {
+    transform: scale(1.123);
+    box-shadow:4000px;;
+}
+
+#img2:hover {
+    transform: scale(1.123);
+
+
+}
+
+#img3:hover {
+    transform: scale(1.123);
+}
+
+.head {
+    font-size: 40px;
+
+    text-align: center;
+    color: rgb(34, 37, 52);
+    font-weight: bold;
+    padding: 50px;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+
+}
+
+.slider {
+    width: 100%;
+    height: 510px;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider img:first-child {
+    z-index: 1;
+}
+
+.slider img:nth-child(2) {
+    z-index: 0;
+}
+
+.navigation-button {
+    text-align: center;
+    position: relative;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.seprate {
+    display: flex;
+}
+
+.marvel {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 100px;
+    padding: 50px;
+    font-size: 40px;
+    color: rgb(49, 54, 79);
+    font-weight: bold;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+
+.DHH {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    margin-left: 0px;
+    padding: 50px;
+    font-size: 40px;
+    color: rgb(49, 54, 79);
+    font-weight: bold;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+
+.casual {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 80px;
+    padding: 50px;
+    font-size: 40px;
+    color: rgb(49, 54, 79);
+    font-weight: bold;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+
+.imgsep {
+    display: flex;
+}
+
+.marvelimg{
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10%;
+    transition: 0.2s;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+.marvelimg:hover{
+opacity: 0.7;
+}
+.DHHimg{
+    margin-left: -10px;
+    margin-right: 4px;
+    transition: 0.2s;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+.DHHimg:hover{
+    opacity: 0.7;
+}
+
+.casualimg{
+    margin-left: 20px;
+    margin-right: 0px;
+    transition: 0.2s;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain;
+}
+.casualimg:hover{
+    opacity: 0.7;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: 10px;
+    animation-range-end: 50px;
+}
+footer h2{
+    text-align: center;
+    background-color: rgb(45, 48, 59);
+    color: aliceblue;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.scroll-watcher{
+    height: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(215, 158, 43);
+    width: 100%;
+    scale: 0 1;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+    transform-origin: left;
+}
+@keyframes scroll-watcher{
+    to {scale:1 1;}
+}

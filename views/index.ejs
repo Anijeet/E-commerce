@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Urban Store</title>
+    <link rel="stylesheet" href="/stylesheet/style1.css">
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1130px)" href="/stylesheet/tab.css">
+    <link rel="stylesheet" media="screen and (max-width:500px)" href="/stylesheet/phone.css">
+    <link rel="stylesheet" href="/stylesheet/last.css">
+    <link rel="stylesheet" href="/stylesheet/login.css">
+    <link rel="stylesheet" href="/stylesheet/imageslider.js">
+    <link rel="stylesheet" href="/stylesheet/scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+
+<body>
+    <div class="scroll-watcher">
+    </div>
+    <img class="bg-img" src="/images/downloadbg.png" alt="Bg Images" width="100vw">
+    <a class="register" href="/register">Register</a>
+    <div>
+        
+        <nav id="navbar">
+            <ul>
+    
+                <li class="item"><a href="/">Home</a></li>
+                <li class="item"><a href="/service" target="_blank">Service</a></li>
+                <li class="item"><a href="/about" target="_blank">About</a></li>
+                <li class="item"><a href="/contact" target="_blank">Login</a></li>
+                <li class="item"><a href="/register" target="_blank">Register</a></li>
+
+            </ul>
+            <div>
+                <input type="text" placeholder="SearchHere"></div>
+            <div>
+                <button class="know"><a href="#">Know More</a></button>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="CandT">
+        <h2 id="cat">Categories</h2>
+    </div>
+    <section id="categories">
+
+        <div class="box">
+            <div id="img1"><a href="/oversizedtshirts" target="_blank"><img
+                        src="/images/oversizesdshirt.png" alt="" height="400px" width="400px"></a></div>
+        </div>
+        <div class="box">
+            <div id="img2"><a href="/jeans" target="_blank"><img src="/images/jeans.png" alt="" height="400px" width="400px"></a></div>
+        </div>
+        <div class="box">
+            <div id="img3"><a href="/shirts" target="_blank"><img src="/images/jackets.png" alt="" height="400px" width="400px"></a></div>
+        </div>
+    </section>
+        <div class="box">
+            <div id="img4"><a href="/polos" target="_blank"><img src="/images/oversizedpolo.png" alt="" width=300px></a></div>
+            <div id="img5"><a href="/sweatshirt" target="_blank"><img src="/images/sweatshirt.png" alt="" width=300px></a></div>
+            <div id="img6"><a href="/fullseleve" target="_blank"><img src="/images/fullsleve.png" alt="" width=300px></a></div>
+            <div id="img7"><a href="/sneakers" target="_blank"><img src="/images/sneakers.png" alt="" width=300px></a></div>
+        </div>
+        <div class="box"></div>c
+
+        <div class="latest">
+            
+        </div>
+    
+    <section id="Top">
+        <div class="head">Top selling</div>
+        <div class="slider">
+            <a href="/fullseleve"><img id="img-1" src="/images/Top1.png" alt="Image 1" width="100%"/></a>
+            <a href="/shirts"><img id="img-2" src="/images/Top2.png" alt="Image 2" width="100%" /></a>
+            <a href="/sweatshirt"><img id="img-3" src="/images/Top3.png" alt="Image 3" width="100%" /></a>
+        </div>
+        <div class="navigation-button">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+        </div>
+    </section>
+    <section class="seprate">
+        <div>
+            <div class="marvel">Marvel Edition</div>
+            <div class="marvelimg"><a href="/marvel" target="_blank"><img src="/images/marvel.png" alt="" height="400px" width="400px"></a></div>
+        </div>
+        <div>
+            <div class="DHH">DHH Edition</div>
+            <div class="DHHimg"><a href="/DHH" target="_blank"><img src="/images/DHH.png" alt="" height="400px" width="400px"></a></div>
+        </div>
+        <div>
+            <div class="casual">Casual</div>
+            <div class="casualimg"><a href="/casual"><img src="/images/casual.png" alt="" height="400px" width="400px"></a></div>
+        </div>
+    </section>
+    <footer id="Footer">
+        <h2>HomeGrown Brand</h2>
+        <div>
+            <h3>Proudly made in INDIA</h3>
+            <hr>
+            <div class="end">
+                <h5>EXPERIENCE THE URBAN STORE APP</h5>
+                <div class="app">
+                    <a href="#"><img src="/images/playstore.png" alt="" height="30px"></a>
+                    <a href="#"><img src="/images/appstore.png" alt="" height="30px"></a>
+                </div>
+                <h5 id="followtext">Follow us</h5>
+                <div class="follow">
+                    <a href="#"><img src="/images/facebook.png" alt="" height="30px"></a>
+                    <a href="#"><img src="/images/instagram.png" alt="" height="30px"></a>
+                    <a href="#"><img src="/images/snapchat.png" alt="" height="30px"></a>
+                    <a href="#"><img src="/images/twitter.jpg" alt="" height="30px"></a>
+                </div>
+                <div class="popular">
+                    <h5 id="populartext">Popular products:</h5>
+                    <div id="popsearches">
+                        <li class="popsearches"><a href="">All Winter</a></li>||
+                        <li class="popsearches"><a href="#">Hoodie&Swatshirts</a></li>||
+                        <li class="popsearches"><a href="#">Oversizedshirt</a></li>||
+                        <li class="popsearches"><a href="#">Jeans</a></li>||
+                        <li class="popsearches"><a href="#">All shirts</a></li>||
+                        <li class="popsearches"><a href="#">Shorts</a></li>||
+                        <li class="popsearches"><a href="#">Joggers</a></li>||
+                        <li class="popsearches"><a href="#">Superheros</a></li>||
+                        <li class="popsearches"><a href="#">HipHop</a></li>||
+                        <li class="popsearches"><a href="#">New Arivals</a></li>
+                    </div>
+                </div>
+                <div class="lasttime">
+                    <h4><strong>The Urban Store 2024-25</strong></h4>
+                </div>
+            </div>
+
+    </footer>
+
+
+    <script>
+        var imgs = document.querySelectorAll('.slider img');
+        var dots = document.querySelectorAll('.dot');
+        var currentImg = 0;
+        const interval = 3000;
+
+        function changeSlide(n) {
+            for (var i = 0; i < imgs.length; i++) {
+                imgs[i].style.opacity = 0;
+                dots[i].className = dots[i].className.replace(' active', '');
+            }
+
+            currentImg = n;
+
+            imgs[currentImg].style.opacity = 1;
+            dots[currentImg].className += ' active';
+        }
+
+
+        currentImg = (currentImg + 1) % imgs.length;
+        if (n != undefined) {
+            clearInterval(timer);
+            timer = setInterval(changeSlide, interval);
+            currentImg = n;
+        }
+    </script>
+    <script>
+
+        var modal = document.getElementById('id01');
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

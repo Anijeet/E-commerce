@@ -1,0 +1,47 @@
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul{
+    text-align: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+#navbar input[type=text]{
+    margin-top: 10px;
+    margin-left: 400px;
+}
+#home{
+    flex-direction: column;
+}
+
+.CandT{
+    flex-direction: column;
+}
+#categories{
+    flex-direction: column;
+}
+#id{
+    flex-direction: column;
+}
+.seprate{
+    flex-direction: column;
+}
+.imagesep{
+    flex-direction: column;
+}
+.DHH{
+    margin-left: 180px;
+}
+.casual{
+    margin-left: 180px;
+}
+.casualimg{
+    margin-left: 100px;
+}
+#footer{
+    flex-direction: column;
+}
+.box{
+    flex-direction: column;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+
+}
+.service{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+.head{
+    text-align: center;
+    padding: 10px 4px;
+    margin-top: 300px;
+    font-size: 2.6rem;
+}
+p{
+    text-align: center;
+    justify-content: center;
+    opacity: 1;
+    
+}

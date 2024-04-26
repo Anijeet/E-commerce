@@ -1,0 +1,47 @@
+.end{
+    background-color: rgb(255, 253, 253);
+    margin-top: 10px;
+}
+.app{
+    margin-top: 15px;
+}
+#followtext{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.follow{
+    margin-top: 10px;
+    
+}
+.popular{
+    margin-top: 20px;
+}
+#populartext{
+    font-size: 15px;
+}
+#popsearches{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-left: 300px;
+    
+}
+#popsearches a{
+    color: rgb(23, 23, 32);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#popsearches a:hover{
+    color: rgb(63, 62, 62);
+    background-color: rgb(228, 223, 223);
+}
+
+.lasttime{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}

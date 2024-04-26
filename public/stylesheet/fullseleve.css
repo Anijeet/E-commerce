@@ -1,0 +1,504 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 150px;
+    background-color: rgba(2, 12, 19, 0.594);
+    
+}
+
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(71, 71, 73);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 19px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dfd7d7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(18, 17, 17);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #4c4a4a;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #navbar input[type=text] {
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 10px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.5s;
+    height: 28px;
+    margin-bottom: 100px;
+   
+}
+
+#navbar input[placeholder=Search] {
+    text-align: center;
+    color: black;
+    margin-bottom: 100px;
+}
+
+#navbar input[type=text]:hover {
+    box-shadow: #717171;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    
+}
+
+#navbar ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: rgb(15, 15, 16);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    transition: 0.5s;
+}
+
+#navbar ul li a:hover {
+    color: rgb(216, 207, 207);
+    background-color: rgb(11, 10, 10);
+}
+
+
+#logoimg{
+    position: relative;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    opacity: 1;
+    mix-blend-mode: difference;
+    margin-top: 17px;
+    margin-left: -1250px;    
+}
+.frontimg{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.fronttext a{
+    color: #8a8686;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fronttext{
+    font-size: 20px;
+    margin: 10px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+#sweatshirts{
+    float: left;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+#layer1{
+    display: flex;
+    margin-left: 15px;
+}
+#layer2{
+    display: flex;
+}
+#layer3{
+    display: flex;
+}
+
+.sweatshirts1-2{
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  text-align: center;
+}
+#sweatshirts1:hover .sweatshirts1-2{
+    bottom: 0;
+    height: 100%;
+}
+.sweatshirts2-1{
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  text-align: center;
+}
+#sweatshirts2:hover .sweatshirts2-1{
+    bottom: 0;
+    height: 100%;
+}
+.sweatshirts3-4{
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  text-align: center;
+}
+#sweatshirts3:hover .sweatshirts3-4{
+    bottom: 0;
+    height: 100%;
+}
+.sweatshirts4-3{
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  text-align: center;
+}
+#sweatshirts4:hover .sweatshirts4-3{
+    bottom: 0;
+    height: 100%;
+}
+.sweatshirts5-6{
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  text-align: center;
+}
+#sweatshirts5:hover .sweatshirts5-6{
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.sweatshirts6-5{
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  text-align: center;
+}
+#sweatshirts6:hover .sweatshirts6-5{
+    bottom: 0;
+    height: 100%;
+}
+.sweatshirts7-8{
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  text-align: center;
+}
+#sweatshirts7:hover .sweatshirts7-8{
+    bottom: 0;
+    height: 100%;
+}
+.sweatshirts8-7{
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  text-align: center;
+}
+#sweatshirts8:hover .sweatshirts8-7{
+    bottom: 0;
+    height: 100%;
+}
+
+#sweatshirts1 p{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+#sweatshirts1{
+    margin-left: 40px;
+    margin-top: 20px;
+    position: relative;
+    transition: transform .15s;
+    cursor: pointer;
+    transition: all 0.5s; 
+    
+}
+
+#sweatshirts p{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+#sweatshirts4{
+    margin-left: 60px;
+    margin-top: 20px;
+    position: relative;
+    transition: transform .15s;
+    cursor: pointer;
+    color: black;
+    transition: all 0.5s; 
+    
+}
+#sweatshirts4 div{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+#sweatshirts2{
+    margin-left: 60px;
+    margin-top: 20px;
+    position: relative;
+    transition: transform .15s;
+    cursor: pointer;
+    transition: all 0.5s; 
+    
+    
+}
+#sweatshirts2 div{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+#sweatshirts3{
+    margin-left: 60px;
+    margin-top: 20px;
+    position: relative;
+    transition: transform .15s;
+    cursor: pointer;
+    transition: all 0.5s; 
+    
+}
+#sweatshirts3 div{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+#sweatshirts5{
+    margin-left: 60px;
+    margin-top: 20px;
+    position: relative;
+    transition: transform .15s;
+    cursor: pointer;
+    transition: all 0.5s; 
+    
+    
+}
+#sweatshirts5 div{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+#sweatshirts6{
+    margin-left: 60px;
+    margin-top: 20px;
+    position: relative;
+    transition: transform .15s;
+    cursor: pointer;
+    transition: all 0.5s; 
+    
+}
+#sweatshirts6 div{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+#sweatshirts7{
+    margin-left: 60px;
+    margin-top: 20px;
+    position: relative;
+    transition: transform .15s;
+    cursor: pointer;
+    transition: all 0.5s; 
+    
+    
+}
+#sweatshirts7 div{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+#sweatshirts7{
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+#sweatshirts7 div{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+#sweatshirts8{
+    margin-left: 60px;
+    margin-top: 20px;
+    position: relative;
+    transition: transform .15s;
+    cursor: pointer;
+    transition: all 0.5s; 
+    
+    
+}
+#sweatshirts8 div{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+.side{
+    float: right;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+.h2{
+    font-size: 2rem;
+}
+.slidechild{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+    background-color: rgba(212, 212, 209, 0.352);
+    font-size: 1.1rem;
+    color: black;
+}
+.sizes{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.sizes h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.sizes button{
+    cursor: pointer;
+}
+.xxs{
+    margin: 3px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.xs{
+    margin: 3px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.s{
+    margin: 3px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.m{
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.l{
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.xl{
+    margin-left: 10px;
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.xxl{
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-left: 0px;
+}
+.xxxl{
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-left: 0px;
+}
