@@ -10,20 +10,32 @@ html,body{
 }
 .block{
     display: block;
-    margin-left: 20%;
+    margin-left: -680px;
     margin-bottom: 2%;
+    /* margin-top: 100px; */
+    gap :5px;
+    bottom: 100px;
 }
 .blocksubmit{
     display: block;
     margin-top: 5px;
     align-items: center;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: -630px;
 }
 .register1{
     color: white;
    font-size: 40px;
-    margin-left: 43%;
+    margin-left: 20%;
+    margin-bottom: 100px;
+    margin-top: -50px;
+}
+.updated{
+    color: white;
+   font-size: 40px;
+    margin-left: 20%;
+    margin-bottom: 100px;
+    margin-top: -50px;
 }
 .register{
     background-color: #a69620;
@@ -54,4 +66,8 @@ form{
     margin-top: 1%;
     margin-right: 35%;
     border-radius: 15px;
+}
+.box{
+    display: flex;
+    margin-top: 10%;
 }
